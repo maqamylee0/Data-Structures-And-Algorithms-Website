@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <title>Notes</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
