@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-<?php require_once 'includes/header.php';?>
+<?php require 'includes/header.php';?>
 
 <h1 id="stack">Stack</h1>
           <li><a href="#def_stack"> What is a stack</a></li>
@@ -52,9 +52,9 @@
           <li>Balanced parenthesis</li>
         </div>
       </div>
-      <?php require_once 'includes/footer.php';?>
+      <?php require 'includes/footer.php';?>
 
-<?php require_once 'includes/header.php';?>
+<?php require 'includes/header.php';?>
 
       <h1 id="queues">Queues</h1>
           <li><a href="#queue_def"> What is a Queue</a></li>
@@ -97,10 +97,10 @@
          <li>I/O buffer</li>
         </div>
       </div>
-      <?php require_once 'includes/footer.php';?>
+      <?php require 'includes/footer.php';?>
 
 
-      <?php require_once 'includes/header.php';?>
+      <?php require 'includes/header.php';?>
 
       <h1 id="lists">List</h1>
           <li><a href="#lists">What is List</a></li>
@@ -190,10 +190,10 @@
             </p>     
         </div>
       </div>
-      <?php require_once 'includes/footer.php';?>
+      <?php require 'includes/footer.php';?>
 
 
-      <?php require_once 'includes/header.php';?>
+      <?php require 'includes/header.php';?>
 
       <h1 id="sorting">Sorting</h1>
             <li> <a href="#sorting_def">What is a sorting</a></li>
@@ -363,11 +363,11 @@ quicksort)</p>
 
           </div>
         </div>
-        <?php require_once 'includes/footer.php';?>
+        <?php require 'includes/footer.php';?>
 
 
 
-        <?php require_once 'includes/header.php';?>
+        <?php require 'includes/header.php';?>
 
         <h1 id="searching">Searching</h1>
               <li> <a href="#unordered_search">Unordered search</a></li>
@@ -420,8 +420,10 @@ quicksort)</p>
                       <p>Binary search only works if the array is already sorted</p>
                       <h4>How fast is it</h4>
                       So, the time complexity of binary search is O(log2n) which is exactly
-the same as O(log n) .
+                     the same as O(log n) .
 
             </div>
           </div>
-          <?php require_once 'includes/footer.php';?>
+          <?php require 'includes/footer.php';?>
+</body>
+</html>
