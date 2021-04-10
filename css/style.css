@@ -30,8 +30,8 @@ margin-top: 20px;
 
 #container    
 {
-	width: 900px;
-	height: 500px;
+	width: 50%;
+	height: 20%;
 	background: #444;
 }
 #mainleft li a{
@@ -76,6 +76,8 @@ margin-top: 20px;
 
 #maincont
 {
+	display: grid;
+	grid-template-areas:'left right';
 	width: 900px;
 	height: 325px;
 	background: #444;
@@ -83,9 +85,8 @@ margin-top: 20px;
 
 #mainleft
 {
-	float: left;
-	width: 420px;
-	height: 295px;
+	grid-area: left;
+	float: left;	
 	padding: 15px;
 	background: #333;
 }
@@ -108,9 +109,9 @@ margin-top: 20px;
 
 #mainright
 {
+	grid-area: right;
 	float: left;
-	width: 420px;
-	height: 310px;
+	
 	padding: 15px 15px 0 15px;
 	overflow: auto;
 	line-height: 150%;
